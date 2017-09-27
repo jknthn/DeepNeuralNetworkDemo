@@ -12,9 +12,17 @@
 		1F7156FD1F7B6219003CC508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7156FB1F7B6219003CC508 /* Main.storyboard */; };
 		1F7156FF1F7B6219003CC508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7156FE1F7B6219003CC508 /* Assets.xcassets */; };
 		1F7157021F7B6219003CC508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7157001F7B6219003CC508 /* LaunchScreen.storyboard */; };
+		1F71570A1F7B6284003CC508 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7157091F7B6284003CC508 /* Layer.swift */; };
+		1F71570C1F7B62B7003CC508 /* Activation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F71570B1F7B62B7003CC508 /* Activation.swift */; };
+		1F71570E1F7B62D9003CC508 /* DeepNeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F71570D1F7B62D9003CC508 /* DeepNeuralNetwork.swift */; };
+		1F7157121F7B632A003CC508 /* CSVProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7157111F7B632A003CC508 /* CSVProcessor.swift */; };
+		1F7157131F7B6493003CC508 /* iris.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1F7157101F7B6304003CC508 /* iris.csv */; };
+		985E430E7B60ABD60C0AF6F2 /* Pods_DeepNeuralNetworkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A117E2D8C7991814E883E5 /* Pods_DeepNeuralNetworkDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01A117E2D8C7991814E883E5 /* Pods_DeepNeuralNetworkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepNeuralNetworkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		096BFF53FDF5973E170355F6 /* Pods-DeepNeuralNetworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepNeuralNetworkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeepNeuralNetworkDemo/Pods-DeepNeuralNetworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		1F7156F41F7B6219003CC508 /* DeepNeuralNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepNeuralNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7156F71F7B6219003CC508 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F7156F91F7B6219003CC508 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,12 @@
 		1F7156FE1F7B6219003CC508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F7157011F7B6219003CC508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F7157031F7B6219003CC508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7157091F7B6284003CC508 /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		1F71570B1F7B62B7003CC508 /* Activation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activation.swift; sourceTree = "<group>"; };
+		1F71570D1F7B62D9003CC508 /* DeepNeuralNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepNeuralNetwork.swift; sourceTree = "<group>"; };
+		1F7157101F7B6304003CC508 /* iris.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = iris.csv; sourceTree = "<group>"; };
+		1F7157111F7B632A003CC508 /* CSVProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVProcessor.swift; sourceTree = "<group>"; };
+		4E305ACA03C915E8621F810A /* Pods-DeepNeuralNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepNeuralNetworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeepNeuralNetworkDemo/Pods-DeepNeuralNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985E430E7B60ABD60C0AF6F2 /* Pods_DeepNeuralNetworkDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				1F7156F61F7B6219003CC508 /* DeepNeuralNetworkDemo */,
 				1F7156F51F7B6219003CC508 /* Products */,
+				AAAACC6F16DA20CCC327D7DE /* Pods */,
+				E8035B92DCD7F644284E3E7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,36 @@
 		1F7156F61F7B6219003CC508 /* DeepNeuralNetworkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1F7157101F7B6304003CC508 /* iris.csv */,
 				1F7156F71F7B6219003CC508 /* AppDelegate.swift */,
 				1F7156F91F7B6219003CC508 /* ViewController.swift */,
+				1F7157091F7B6284003CC508 /* Layer.swift */,
+				1F71570B1F7B62B7003CC508 /* Activation.swift */,
+				1F71570D1F7B62D9003CC508 /* DeepNeuralNetwork.swift */,
+				1F7157111F7B632A003CC508 /* CSVProcessor.swift */,
 				1F7156FB1F7B6219003CC508 /* Main.storyboard */,
 				1F7156FE1F7B6219003CC508 /* Assets.xcassets */,
 				1F7157001F7B6219003CC508 /* LaunchScreen.storyboard */,
 				1F7157031F7B6219003CC508 /* Info.plist */,
 			);
 			path = DeepNeuralNetworkDemo;
+			sourceTree = "<group>";
+		};
+		AAAACC6F16DA20CCC327D7DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				096BFF53FDF5973E170355F6 /* Pods-DeepNeuralNetworkDemo.debug.xcconfig */,
+				4E305ACA03C915E8621F810A /* Pods-DeepNeuralNetworkDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8035B92DCD7F644284E3E7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01A117E2D8C7991814E883E5 /* Pods_DeepNeuralNetworkDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F7157061F7B6219003CC508 /* Build configuration list for PBXNativeTarget "DeepNeuralNetworkDemo" */;
 			buildPhases = (
+				8362EA771668DACE4503C001 /* [CP] Check Pods Manifest.lock */,
 				1F7156F01F7B6219003CC508 /* Sources */,
 				1F7156F11F7B6219003CC508 /* Frameworks */,
 				1F7156F21F7B6219003CC508 /* Resources */,
+				D3BCB7287AC6DD549D1CF3EF /* [CP] Embed Pods Frameworks */,
+				F692154634801D137888FE20 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F7157021F7B6219003CC508 /* LaunchScreen.storyboard in Resources */,
+				1F7157131F7B6493003CC508 /* iris.csv in Resources */,
 				1F7156FF1F7B6219003CC508 /* Assets.xcassets in Resources */,
 				1F7156FD1F7B6219003CC508 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +174,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8362EA771668DACE4503C001 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeepNeuralNetworkDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3BCB7287AC6DD549D1CF3EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DeepNeuralNetworkDemo/Pods-DeepNeuralNetworkDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Matswift/Matswift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Matswift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeepNeuralNetworkDemo/Pods-DeepNeuralNetworkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F692154634801D137888FE20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeepNeuralNetworkDemo/Pods-DeepNeuralNetworkDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F7156F01F7B6219003CC508 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F71570A1F7B6284003CC508 /* Layer.swift in Sources */,
+				1F71570C1F7B62B7003CC508 /* Activation.swift in Sources */,
 				1F7156FA1F7B6219003CC508 /* ViewController.swift in Sources */,
 				1F7156F81F7B6219003CC508 /* AppDelegate.swift in Sources */,
+				1F71570E1F7B62D9003CC508 /* DeepNeuralNetwork.swift in Sources */,
+				1F7157121F7B632A003CC508 /* CSVProcessor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +373,7 @@
 		};
 		1F7157071F7B6219003CC508 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 096BFF53FDF5973E170355F6 /* Pods-DeepNeuralNetworkDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +389,7 @@
 		};
 		1F7157081F7B6219003CC508 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E305ACA03C915E8621F810A /* Pods-DeepNeuralNetworkDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

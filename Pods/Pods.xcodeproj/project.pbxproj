@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B9EA1A11388E313E17027D578E4E5FC /* Pods-DeepNeuralNetworkDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 691BC29798D838482CF8281DFD293143 /* Pods-DeepNeuralNetworkDemo-dummy.m */; };
+		347A142258BDB8686E4EC2714B55D3A1 /* Pods-DeepNeuralNetworkDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7E0D19203DE5A61684F6B8F5017F69 /* Pods-DeepNeuralNetworkDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62341FA9EC361D9A133F046BD7797BC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		873DE67E57C35AD4E946873352088B5D /* Matswift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804324B6C53F11CF23F4D1D49EE9A41 /* Matswift-dummy.m */; };
+		89137C51A55693E4F2DC88AE4374310B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B2EB97C487EB1BA65AB02FC3A93A7DBC /* Matswift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA906F90C714D41BEDAF4FFBF39E32B /* Matswift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC83172FF9DFE48AC1F5C7AE0BB4826B /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724FDFA7A322F81CF33B22915B7E44D3 /* Matrix.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F722FD48224ED00BE55BBB964F963E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6993CB2933355701E3E1F1ACF1977A88;
+			remoteInfo = Matswift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B212F0DBD3D238CCC780224117C53F /* Pods_DeepNeuralNetworkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DeepNeuralNetworkDemo.framework; path = "Pods-DeepNeuralNetworkDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1804324B6C53F11CF23F4D1D49EE9A41 /* Matswift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Matswift-dummy.m"; sourceTree = "<group>"; };
+		1BAA62F5C2B19833523E73EAC14AA789 /* Pods-DeepNeuralNetworkDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeepNeuralNetworkDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24CAEC1815C35B254F975DC666DC1692 /* Pods-DeepNeuralNetworkDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeepNeuralNetworkDemo-frameworks.sh"; sourceTree = "<group>"; };
+		2BED8F2D87C8D349BCAED9FBFADC0DEE /* Matswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Matswift.framework; path = Matswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FAF6291573A3BCB576BC16A2B8FD2AA /* Matswift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Matswift-prefix.pch"; sourceTree = "<group>"; };
+		609D3BE96E6CFFA914CE4E9DB49C6C2C /* Matswift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Matswift.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		677B2DED5DE0486B292B0A3D64F460FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		691BC29798D838482CF8281DFD293143 /* Pods-DeepNeuralNetworkDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeepNeuralNetworkDemo-dummy.m"; sourceTree = "<group>"; };
+		6FD20CBCA58E0FC69E7EC568A6EC4EE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		724FDFA7A322F81CF33B22915B7E44D3 /* Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = Matswift/Classes/Matrix.swift; sourceTree = "<group>"; };
+		8D95CE280F248513E5E0034082D3BDA3 /* Matswift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Matswift.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7323AF06EB3DE4E7A93755BF922447C /* Pods-DeepNeuralNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeepNeuralNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B3167D463406D7E4632779ADA869E19A /* Pods-DeepNeuralNetworkDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeepNeuralNetworkDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA7E0D19203DE5A61684F6B8F5017F69 /* Pods-DeepNeuralNetworkDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeepNeuralNetworkDemo-umbrella.h"; sourceTree = "<group>"; };
+		BFA906F90C714D41BEDAF4FFBF39E32B /* Matswift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Matswift-umbrella.h"; sourceTree = "<group>"; };
+		C8780D955644675E2C5DC088742477B9 /* Pods-DeepNeuralNetworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeepNeuralNetworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D5A9F5D054B5089EEFED84307B8CCA5D /* Pods-DeepNeuralNetworkDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DeepNeuralNetworkDemo.modulemap"; sourceTree = "<group>"; };
+		F21576B7A2EC067EB520CFE47FFA8073 /* Pods-DeepNeuralNetworkDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeepNeuralNetworkDemo-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		107B34278D83D8CB44C11CCB3304DD1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89137C51A55693E4F2DC88AE4374310B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E81B95D497783690E76C27FDBB1D1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62341FA9EC361D9A133F046BD7797BC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		054072895BF170FBD8F321AEEF1E78D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BED8F2D87C8D349BCAED9FBFADC0DEE /* Matswift.framework */,
+				06B212F0DBD3D238CCC780224117C53F /* Pods_DeepNeuralNetworkDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70F6809471ADC4D567B635E334FF08F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BC240B48E48483A356409CD1EABC74B /* Matswift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7BC240B48E48483A356409CD1EABC74B /* Matswift */ = {
+			isa = PBXGroup;
+			children = (
+				724FDFA7A322F81CF33B22915B7E44D3 /* Matrix.swift */,
+				992E0ED94048FAC017F740A7A46E7098 /* Support Files */,
+			);
+			name = Matswift;
+			path = Matswift;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				70F6809471ADC4D567B635E334FF08F9 /* Pods */,
+				054072895BF170FBD8F321AEEF1E78D8 /* Products */,
+				9BCDEA324F978C69DEED29811FBA48AD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		992E0ED94048FAC017F740A7A46E7098 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FD20CBCA58E0FC69E7EC568A6EC4EE7 /* Info.plist */,
+				8D95CE280F248513E5E0034082D3BDA3 /* Matswift.modulemap */,
+				609D3BE96E6CFFA914CE4E9DB49C6C2C /* Matswift.xcconfig */,
+				1804324B6C53F11CF23F4D1D49EE9A41 /* Matswift-dummy.m */,
+				2FAF6291573A3BCB576BC16A2B8FD2AA /* Matswift-prefix.pch */,
+				BFA906F90C714D41BEDAF4FFBF39E32B /* Matswift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Matswift";
+			sourceTree = "<group>";
+		};
+		9BCDEA324F978C69DEED29811FBA48AD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD9DBAF07BFF5CA28562A9F12176766F /* Pods-DeepNeuralNetworkDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AD9DBAF07BFF5CA28562A9F12176766F /* Pods-DeepNeuralNetworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				677B2DED5DE0486B292B0A3D64F460FE /* Info.plist */,
+				D5A9F5D054B5089EEFED84307B8CCA5D /* Pods-DeepNeuralNetworkDemo.modulemap */,
+				1BAA62F5C2B19833523E73EAC14AA789 /* Pods-DeepNeuralNetworkDemo-acknowledgements.markdown */,
+				B3167D463406D7E4632779ADA869E19A /* Pods-DeepNeuralNetworkDemo-acknowledgements.plist */,
+				691BC29798D838482CF8281DFD293143 /* Pods-DeepNeuralNetworkDemo-dummy.m */,
+				24CAEC1815C35B254F975DC666DC1692 /* Pods-DeepNeuralNetworkDemo-frameworks.sh */,
+				F21576B7A2EC067EB520CFE47FFA8073 /* Pods-DeepNeuralNetworkDemo-resources.sh */,
+				BA7E0D19203DE5A61684F6B8F5017F69 /* Pods-DeepNeuralNetworkDemo-umbrella.h */,
+				C8780D955644675E2C5DC088742477B9 /* Pods-DeepNeuralNetworkDemo.debug.xcconfig */,
+				A7323AF06EB3DE4E7A93755BF922447C /* Pods-DeepNeuralNetworkDemo.release.xcconfig */,
+			);
+			name = "Pods-DeepNeuralNetworkDemo";
+			path = "Target Support Files/Pods-DeepNeuralNetworkDemo";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		336860703CBA265B63940B70020A5FD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EB97C487EB1BA65AB02FC3A93A7DBC /* Matswift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87A2C229D056AED3C339ADF1FCB70D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347A142258BDB8686E4EC2714B55D3A1 /* Pods-DeepNeuralNetworkDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3AF3F83055FF4BFBE18FE10DD3988C0C /* Pods-DeepNeuralNetworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA5AEBA724AC59661325582ABED051E /* Build configuration list for PBXNativeTarget "Pods-DeepNeuralNetworkDemo" */;
+			buildPhases = (
+				9DF95762B9E536A708E9F4D7B64FBB38 /* Sources */,
+				107B34278D83D8CB44C11CCB3304DD1F /* Frameworks */,
+				D87A2C229D056AED3C339ADF1FCB70D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99C382029B3FC36A02629CE5AB988BAA /* PBXTargetDependency */,
+			);
+			name = "Pods-DeepNeuralNetworkDemo";
+			productName = "Pods-DeepNeuralNetworkDemo";
+			productReference = 06B212F0DBD3D238CCC780224117C53F /* Pods_DeepNeuralNetworkDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6993CB2933355701E3E1F1ACF1977A88 /* Matswift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E68F27458ACA1C4E794CF461A2B7032 /* Build configuration list for PBXNativeTarget "Matswift" */;
+			buildPhases = (
+				DBD86E3FC805B75B4089CAAD22ABF28E /* Sources */,
+				4E81B95D497783690E76C27FDBB1D1B1 /* Frameworks */,
+				336860703CBA265B63940B70020A5FD1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Matswift;
+			productName = Matswift;
+			productReference = 2BED8F2D87C8D349BCAED9FBFADC0DEE /* Matswift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 054072895BF170FBD8F321AEEF1E78D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6993CB2933355701E3E1F1ACF1977A88 /* Matswift */,
+				3AF3F83055FF4BFBE18FE10DD3988C0C /* Pods-DeepNeuralNetworkDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DF95762B9E536A708E9F4D7B64FBB38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9EA1A11388E313E17027D578E4E5FC /* Pods-DeepNeuralNetworkDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD86E3FC805B75B4089CAAD22ABF28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC83172FF9DFE48AC1F5C7AE0BB4826B /* Matrix.swift in Sources */,
+				873DE67E57C35AD4E946873352088B5D /* Matswift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99C382029B3FC36A02629CE5AB988BAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Matswift;
+			target = 6993CB2933355701E3E1F1ACF1977A88 /* Matswift */;
+			targetProxy = 7F722FD48224ED00BE55BBB964F963E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AAD85147D762E8A033777F17216B72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8780D955644675E2C5DC088742477B9 /* Pods-DeepNeuralNetworkDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DeepNeuralNetworkDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeepNeuralNetworkDemo/Pods-DeepNeuralNetworkDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DeepNeuralNetworkDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42AA050DD0A69E673706A949BB34A8DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7323AF06EB3DE4E7A93755BF922447C /* Pods-DeepNeuralNetworkDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DeepNeuralNetworkDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeepNeuralNetworkDemo/Pods-DeepNeuralNetworkDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DeepNeuralNetworkDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9FD904DAFA0B2656A7E9DA4BDCF2CF02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609D3BE96E6CFFA914CE4E9DB49C6C2C /* Matswift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Matswift/Matswift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Matswift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Matswift/Matswift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Matswift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D12CE9D05C00EB711CA4AD633B1A4D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609D3BE96E6CFFA914CE4E9DB49C6C2C /* Matswift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Matswift/Matswift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Matswift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Matswift/Matswift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Matswift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E68F27458ACA1C4E794CF461A2B7032 /* Build configuration list for PBXNativeTarget "Matswift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD904DAFA0B2656A7E9DA4BDCF2CF02 /* Debug */,
+				D12CE9D05C00EB711CA4AD633B1A4D54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA5AEBA724AC59661325582ABED051E /* Build configuration list for PBXNativeTarget "Pods-DeepNeuralNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AAD85147D762E8A033777F17216B72F /* Debug */,
+				42AA050DD0A69E673706A949BB34A8DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

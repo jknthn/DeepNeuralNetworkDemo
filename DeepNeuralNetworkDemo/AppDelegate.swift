@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  DeepNeuralNetworkDemo
 //
-//  Created by jeremi on 27/09/2017.
+//  Created by Jeremi Kaczmarczyk on 27/09/2017.
 //  Copyright © 2017 Jeremi Kaczmarczyk. All rights reserved.
 //
 
